@@ -1,0 +1,138 @@
+/* 
+    Document   : style
+    Created on : Apr 28, 2023, 6:24:49 PM
+    Author     : marin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.Center-title{
+    color : #FFFFFF;
+    font-size: 300 px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    
+    
+}
+
+
+
+.input-container {
+                width:25%;
+                height: 35px;
+                position: relative;
+                top: -20px;
+                left: 23.5%;
+                display: inline-block;
+                font-size: 20px;
+                text-align: center;
+                justify-content: center;
+                 border-radius: 20px;
+                 background-color: #D3D3D3; 
+                 border: 10px inset black;
+}           
+
+.input-container select {
+                margin-left: 5px;
+                font-size: 16px;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                -webkit-appearance: none;   
+            }
+
+.input-container i {
+                margin-right: 20px;
+            }
+
+
+.interactables{
+    color : black;
+    font-size: 25px;
+    display: grid;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+    background-color: #D3D3D3; 
+    border: 10px inset black;
+}
+.text{
+    position:relative;
+    top:5px;
+}
+.ICON1{
+    position:relative;
+    top:17px;
+    left:-163px;
+}
+.ICON2{
+    position:relative;
+    top:17px;
+    left:-163px;
+}
+#map{
+            position: relative;
+            top: -40px;
+            width: 50%;
+            height: 370px;
+            margin: 0 auto;
+            outline: 5px solid black;
+            border-radius: 10px;
+        }   
+#route-details-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  padding: 10px;
+  background-color: #2A4D2E;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#start{
+    font-familly: Inter;
+    font-size: 20px;
+}
+
+#end{
+    font-familly: Inter;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
